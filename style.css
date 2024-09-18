@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f8f8;
+    margin-bottom: 100px;
+}
+
+.borda {
+    border: 1px solid red
+}
+
+#form-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0.5px 3px 8px #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #d8d3d3;
+}
+
+#form-container h2 {
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form-container a {
+    color: #000000;
+    transition: 0.5s;
+}
+
+#form-container a:hover {
+    color: #3d3d5c;
+}
+
+#form-container form {
+    padding-bottom: 80px;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0%;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container .form-floating label {
+    color: #ccc;
+}
+
+#form-container .form-floating > .form-control:focus~label {
+    color: #222;
+}
+
+.rodape {
+	clear: both;
+	text-align: center;
+	padding-bottom: 5px;
+    /* border-top: 1px solid #CCC; */
+}
+
+#rodape {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#assinatura {
+	text-align: center;
+    margin-bottom: 50px;
+}
+
+#assinatura img {
+	width: 50px;
+	border-radius: 50%;
+}
